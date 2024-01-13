@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.TimerWidgetApp.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/appwidget_text"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_alignParentLeft="true"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:text="r"/>
+
+    <Button
+        android:id="@+id/toggleButton"
+        android:layout_alignParentRight="true"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:textOn="1"
+        android:textOff="0"
+        />
+</RelativeLayout>
